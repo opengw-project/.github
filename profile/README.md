@@ -1,5 +1,6 @@
 # OpenGW Project
 
+
 OpenGW Project is a small, public gateway-control-plane project made up of multiple repositories:
 
 - [web-client](https://github.com/opengw-project/web-client) — the TypeScript/Vite frontend for the API gateway control plane
@@ -9,8 +10,11 @@ OpenGW Project is a small, public gateway-control-plane project made up of multi
 - [bouncer](https://github.com/opengw-project/bouncer) — Rust service likely focused on access/control concerns
 - [.github-private](https://github.com/opengw-project/.github-private) — private org-level GitHub configuration repository
 
-## What this project is about
 
+> [!important]
+> This project is heavily vibecoded. Expect rapid iteration, rough edges, and code that may favor momentum over polish. Treat it as a work in progress.
+
+## What this project is about
 This organization appears to be building an API gateway platform with clear control-plane/data-plane separation:
 
 - **web-client** provides a browser-based admin UI.
@@ -35,9 +39,6 @@ This organization appears to be building an API gateway platform with clear cont
 | [data-plane](https://github.com/opengw-project/data-plane) | Private | Rust data-plane component likely responsible for runtime gateway traffic handling. | Rust | https://github.com/opengw-project/data-plane |
 | [root](https://github.com/opengw-project/root) | Private | Python repository for root-level tooling, orchestration, or project automation. | Python | https://github.com/opengw-project/root |
 
-## Important note
-
-This project is heavily vibecoded. Expect rapid iteration, rough edges, and code that may favor momentum over polish. Treat it as a work in progress.
 
 ## Summary
 

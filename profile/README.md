@@ -26,18 +26,10 @@ This organization appears to be building an API gateway platform with clear cont
 
 | Repository | Description | Primary language | URL |
 | --- | --- | --- | --- |
+| [root](https://github.com/opengw-project/root) | Private | Python repository for root-level tooling, orchestration, or project automation. | Python | https://github.com/opengw-project/root |
 | [web-client](https://github.com/opengw-project/web-client) | Frontend for the API gateway control plane. Built with React, TypeScript, and Vite. | TypeScript | https://github.com/opengw-project/web-client |
 | [control-plane](https://github.com/opengw-project/control-plane) | Spring Boot backend for the API gateway control plane. Exposes admin APIs for routes, policies, API keys, nodes, and users. | Java | https://github.com/opengw-project/control-plane |
-| [.github](https://github.com/opengw-project/.github) | Organization profile and shared community/configuration files. | — | https://github.com/opengw-project/.github |
-
-## Additional repositories (organization-wide summary)
-
-| Repository | Visibility | Summary | Primary language | URL |
-| --- | --- | --- | --- | --- |
-| [.github-private](https://github.com/opengw-project/.github-private) | Private | Private organization-level GitHub settings/automation repository. | — | https://github.com/opengw-project/.github-private |
-| [bouncer](https://github.com/opengw-project/bouncer) | Private | Rust service repository, likely handling platform edge access or policy enforcement concerns. | Rust | https://github.com/opengw-project/bouncer |
-| [data-plane](https://github.com/opengw-project/data-plane) | Private | Rust data-plane component likely responsible for runtime gateway traffic handling. | Rust | https://github.com/opengw-project/data-plane |
-| [root](https://github.com/opengw-project/root) | Private | Python repository for root-level tooling, orchestration, or project automation. | Python | https://github.com/opengw-project/root |
+| [data-plane](https://github.com/opengw-project/data-plane) | Bouncer, this acts a as a main gateway which reads the incoming requests, validates them, and generates a response accordingly. | Rust data-plane component likely responsible for runtime gateway traffic handling. | Rust | https://github.com/opengw-project/data-plane |
 
 
 ## Summary
